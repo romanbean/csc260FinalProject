@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BakingUnitConverter", "BakingUnitConverter\BakingUnitConverter.csproj", "{BA201131-6608-4935-B22D-1BF07AD3DCBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA201131-6608-4935-B22D-1BF07AD3DCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA201131-6608-4935-B22D-1BF07AD3DCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA201131-6608-4935-B22D-1BF07AD3DCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA201131-6608-4935-B22D-1BF07AD3DCBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E1306BC-B927-4BC2-AC45-EA63506F7EF6}
+	EndGlobalSection
+EndGlobal
