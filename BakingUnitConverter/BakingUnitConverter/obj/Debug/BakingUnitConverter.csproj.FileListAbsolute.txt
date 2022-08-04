@@ -9,3 +9,14 @@ C:\Users\kirin-alex\Documents\Personal Projects C# Only\BakingUnitConverter\Baki
 C:\Users\kirin-alex\Documents\Personal Projects C# Only\BakingUnitConverter\BakingUnitConverter\bin\Debug\BakingUnitConverter.pdb
 C:\Users\kirin-alex\Documents\Personal Projects C# Only\BakingUnitConverter\BakingUnitConverter\obj\Debug\BakingUnitConverter.exe
 C:\Users\kirin-alex\Documents\Personal Projects C# Only\BakingUnitConverter\BakingUnitConverter\obj\Debug\BakingUnitConverter.pdb
+C:\Users\kirin-alex\Documents\DSU-Summer2022\CSC260\FinalProject_CSC260_TalbertAlex\BakingUnitConverter\BakingUnitConverter\bin\Debug\BakingUnitConverter.exe.config
+C:\Users\kirin-alex\Documents\DSU-Summer2022\CSC260\FinalProject_CSC260_TalbertAlex\BakingUnitConverter\BakingUnitConverter\bin\Debug\BakingUnitConverter.exe
+C:\Users\kirin-alex\Documents\DSU-Summer2022\CSC260\FinalProject_CSC260_TalbertAlex\BakingUnitConverter\BakingUnitConverter\bin\Debug\BakingUnitConverter.pdb
+C:\Users\kirin-alex\Documents\DSU-Summer2022\CSC260\FinalProject_CSC260_TalbertAlex\BakingUnitConverter\BakingUnitConverter\obj\Debug\BakingUnitConverter.csproj.AssemblyReference.cache
+C:\Users\kirin-alex\Documents\DSU-Summer2022\CSC260\FinalProject_CSC260_TalbertAlex\BakingUnitConverter\BakingUnitConverter\obj\Debug\BakingUnitConverter.csproj.SuggestedBindingRedirects.cache
+C:\Users\kirin-alex\Documents\DSU-Summer2022\CSC260\FinalProject_CSC260_TalbertAlex\BakingUnitConverter\BakingUnitConverter\obj\Debug\BakingUnitConverter.Converter.resources
+C:\Users\kirin-alex\Documents\DSU-Summer2022\CSC260\FinalProject_CSC260_TalbertAlex\BakingUnitConverter\BakingUnitConverter\obj\Debug\BakingUnitConverter.Properties.Resources.resources
+C:\Users\kirin-alex\Documents\DSU-Summer2022\CSC260\FinalProject_CSC260_TalbertAlex\BakingUnitConverter\BakingUnitConverter\obj\Debug\BakingUnitConverter.csproj.GenerateResource.cache
+C:\Users\kirin-alex\Documents\DSU-Summer2022\CSC260\FinalProject_CSC260_TalbertAlex\BakingUnitConverter\BakingUnitConverter\obj\Debug\BakingUnitConverter.csproj.CoreCompileInputs.cache
+C:\Users\kirin-alex\Documents\DSU-Summer2022\CSC260\FinalProject_CSC260_TalbertAlex\BakingUnitConverter\BakingUnitConverter\obj\Debug\BakingUnitConverter.exe
+C:\Users\kirin-alex\Documents\DSU-Summer2022\CSC260\FinalProject_CSC260_TalbertAlex\BakingUnitConverter\BakingUnitConverter\obj\Debug\BakingUnitConverter.pdb

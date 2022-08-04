@@ -37,6 +37,7 @@ namespace BakingUnitConverter
             string previousComboboxValue = prevCb.Text;
             string newComboboxValue = newCb.Text;
 
+            if (prevTb.Text.Contains(prevTb.Text) && prevTb.Text.Length > 0) { 
             // Swap Textboxes values
             newTb.Text = newTb.Text.Replace(newTb.Text, previousTextboxValue);
             prevTb.Text = prevTb.Text.Replace(prevTb.Text, newTextboxValue);
@@ -44,6 +45,11 @@ namespace BakingUnitConverter
             // Swap Comboboxes values
             prevCb.Text = prevCb.Text.Replace(prevCb.Text, newComboboxValue);
             newCb.Text = newCb.Text.Replace(newCb.Text, previousComboboxValue);
+             }
+            else
+            {
+                MessageBox.Show("ERROR: There is no input! ", "ERROR: No input", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
         public void QuickReplace(RichTextBox rtb, TextBox tb_prevNum, TextBox tb_newNum, ComboBox cb_prevUnit, ComboBox cb_newUnit)
         {

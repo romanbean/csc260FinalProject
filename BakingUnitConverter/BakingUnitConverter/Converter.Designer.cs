@@ -86,7 +86,9 @@
             "g",
             "mL",
             "quart",
-            "quarts"});
+            "quarts",
+            "ounces",
+            "oz"});
             this.cb_PrevUnit.Location = new System.Drawing.Point(327, 165);
             this.cb_PrevUnit.Name = "cb_PrevUnit";
             this.cb_PrevUnit.Size = new System.Drawing.Size(85, 21);
@@ -130,7 +132,9 @@
             "g",
             "mL",
             "quart",
-            "quarts"});
+            "quarts",
+            "ounces",
+            "oz"});
             this.cb_NewUnit.Location = new System.Drawing.Point(327, 232);
             this.cb_NewUnit.Name = "cb_NewUnit";
             this.cb_NewUnit.Size = new System.Drawing.Size(85, 21);
