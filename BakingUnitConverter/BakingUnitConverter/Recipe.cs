@@ -30,7 +30,21 @@ namespace BakingUnitConverter
         public string quarts = "quarts";
         public string mL = "mL";
 
-        // TODO: Add an error messagebox if there is nothing to replace
+        public void QuickSwap(TextBox prevTb, TextBox newTb, ComboBox prevCb, ComboBox newCb)
+        {
+            string previousTextboxValue = prevTb.Text;
+            string newTextboxValue = newTb.Text;
+            string previousComboboxValue = prevCb.Text;
+            string newComboboxValue = newCb.Text;
+
+            // Swap Textboxes values
+            newTb.Text = newTb.Text.Replace(newTb.Text, previousTextboxValue);
+            prevTb.Text = prevTb.Text.Replace(prevTb.Text, newTextboxValue);
+
+            // Swap Comboboxes values
+            prevCb.Text = prevCb.Text.Replace(prevCb.Text, newComboboxValue);
+            newCb.Text = newCb.Text.Replace(newCb.Text, previousComboboxValue);
+        }
         public void QuickReplace(RichTextBox rtb, TextBox tb_prevNum, TextBox tb_newNum, ComboBox cb_prevUnit, ComboBox cb_newUnit)
         {
             string previousValue = tb_prevNum.Text + " " + cb_prevUnit.Text;
@@ -45,18 +59,17 @@ namespace BakingUnitConverter
             }
             
         }
-
         public void UnitConversion(TextBox tb_prevNum, ComboBox cb_prevUnit, ComboBox cb_NewUnit, TextBox tb_newNum, RadioButton rb_Metric, RadioButton rb_US)
         {
             double prevNum = ValidateNumber(tb_prevNum.Text);
             
             if (rb_Metric.Checked)
             {
-                ConvertMetricUnits(cb_prevUnit.Text, cb_NewUnit.Text, prevNum, tb_newNum);
+                ConvertMetricUnit(cb_prevUnit.Text, cb_NewUnit.Text, prevNum, tb_newNum);
             }
             else if (rb_US.Checked)
             {
-                ConvertUSUnits(cb_prevUnit.Text, cb_NewUnit.Text, prevNum, tb_newNum);
+                ConvertUSUnit(cb_prevUnit.Text, cb_NewUnit.Text, prevNum, tb_newNum);
             } else
             {
                 MessageBox.Show("No System wasn't checked", "WARNING: No System Checked", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -79,7 +92,7 @@ namespace BakingUnitConverter
 
             return 0;
         }
-        private string ConvertMetricUnits(string prevUnit, string newUnit, double prevNum, TextBox tb)
+        private string ConvertMetricUnit(string prevUnit, string newUnit, double prevNum, TextBox tb)
         {
             string result = "";
 
@@ -182,7 +195,7 @@ namespace BakingUnitConverter
 
             return tb.Text = result;
         }
-        private string ConvertUSUnits(string prevUnit, string newUnit, double prevNum, TextBox tb)
+        private string ConvertUSUnit(string prevUnit, string newUnit, double prevNum, TextBox tb)
         {
             string result = "" + prevNum;
 

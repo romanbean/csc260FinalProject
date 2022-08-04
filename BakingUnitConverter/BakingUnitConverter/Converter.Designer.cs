@@ -45,6 +45,7 @@
             this.rb_US = new System.Windows.Forms.RadioButton();
             this.rb_Metric = new System.Windows.Forms.RadioButton();
             this.lbl_WhatSystem = new System.Windows.Forms.Label();
+            this.btn_swap = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // rtb_Main
@@ -93,7 +94,7 @@
             // 
             // btn_convert
             // 
-            this.btn_convert.Location = new System.Drawing.Point(256, 274);
+            this.btn_convert.Location = new System.Drawing.Point(256, 288);
             this.btn_convert.Name = "btn_convert";
             this.btn_convert.Size = new System.Drawing.Size(156, 23);
             this.btn_convert.TabIndex = 8;
@@ -130,14 +131,14 @@
             "mL",
             "quart",
             "quarts"});
-            this.cb_NewUnit.Location = new System.Drawing.Point(327, 218);
+            this.cb_NewUnit.Location = new System.Drawing.Point(327, 232);
             this.cb_NewUnit.Name = "cb_NewUnit";
             this.cb_NewUnit.Size = new System.Drawing.Size(85, 21);
             this.cb_NewUnit.TabIndex = 13;
             // 
             // tb_NewNum
             // 
-            this.tb_NewNum.Location = new System.Drawing.Point(256, 218);
+            this.tb_NewNum.Location = new System.Drawing.Point(256, 232);
             this.tb_NewNum.Name = "tb_NewNum";
             this.tb_NewNum.ReadOnly = true;
             this.tb_NewNum.Size = new System.Drawing.Size(65, 20);
@@ -145,7 +146,7 @@
             // 
             // btn_Calculate
             // 
-            this.btn_Calculate.Location = new System.Drawing.Point(256, 245);
+            this.btn_Calculate.Location = new System.Drawing.Point(256, 259);
             this.btn_Calculate.Name = "btn_Calculate";
             this.btn_Calculate.Size = new System.Drawing.Size(156, 23);
             this.btn_Calculate.TabIndex = 16;
@@ -181,7 +182,7 @@
             // lbl_NewUnit
             // 
             this.lbl_NewUnit.AutoSize = true;
-            this.lbl_NewUnit.Location = new System.Drawing.Point(352, 202);
+            this.lbl_NewUnit.Location = new System.Drawing.Point(352, 216);
             this.lbl_NewUnit.Name = "lbl_NewUnit";
             this.lbl_NewUnit.Size = new System.Drawing.Size(26, 13);
             this.lbl_NewUnit.TabIndex = 21;
@@ -218,12 +219,23 @@
             this.lbl_WhatSystem.TabIndex = 24;
             this.lbl_WhatSystem.Text = "What System Is Your Recipe";
             // 
+            // btn_swap
+            // 
+            this.btn_swap.Location = new System.Drawing.Point(308, 195);
+            this.btn_swap.Name = "btn_swap";
+            this.btn_swap.Size = new System.Drawing.Size(32, 23);
+            this.btn_swap.TabIndex = 25;
+            this.btn_swap.Text = "⇅";
+            this.btn_swap.UseVisualStyleBackColor = true;
+            this.btn_swap.Click += new System.EventHandler(this.btn_swap_Click);
+            // 
             // Converter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(424, 458);
+            this.Controls.Add(this.btn_swap);
             this.Controls.Add(this.lbl_WhatSystem);
             this.Controls.Add(this.rb_Metric);
             this.Controls.Add(this.rb_US);
@@ -266,6 +278,7 @@
         private System.Windows.Forms.RadioButton rb_US;
         private System.Windows.Forms.RadioButton rb_Metric;
         private System.Windows.Forms.Label lbl_WhatSystem;
+        private System.Windows.Forms.Button btn_swap;
     }
 }
 

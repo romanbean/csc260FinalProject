@@ -3,6 +3,7 @@ using System.Windows.Forms;
 
 namespace BakingUnitConverter
 {
+    // Main Class
     public partial class Converter : Form
     {
         Share s = new Share();
@@ -29,6 +30,11 @@ namespace BakingUnitConverter
         private void btn_Calculate_Click(object sender, EventArgs e)
         {
             r.UnitConversion(tb_PrevNum, cb_PrevUnit, cb_NewUnit, tb_NewNum, rb_Metric, rb_US);
+        }
+
+        private void btn_swap_Click(object sender, EventArgs e)
+        {
+            r.QuickSwap(tb_PrevNum, tb_NewNum, cb_PrevUnit, cb_NewUnit);
         }
     }
 }

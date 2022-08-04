@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BakingUnitConverter
 {
+    // An Abstract class relating to conversions we later use in US and Metric classes respectively.
     public abstract class Measurement
     {
         public abstract double CupToGramConversion(double input);
